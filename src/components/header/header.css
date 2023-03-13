@@ -1,0 +1,49 @@
+
+
+
+.header {
+    
+    /* font is apple font */
+    font-family: "SF Pro KR", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    
+    /* 헤더의 위치를 우측으로 고정 */
+    float: right;
+    
+    /* 그리드로 배치 */
+    display: grid;
+    /* 그리드의 열의 개수 */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* 그리드의 행의 개수 */
+    grid-template-rows: 1fr ;
+    
+    /* 백그라운드 색상 */
+    background-color: var(--color-bg);
+    /* 그림자 */
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+    /* 텍스트 정렬 */
+    text-align: center;
+    /* 텍스트 색상 */
+    color: var(--color-text);
+    
+
+    /* 밑줄 제거 */
+    text-decoration: none !important;
+
+
+    /* 헤더의 너비는 우측 40% */
+    width: 40%;
+    
+
+}
+
+.headerItem :hover {
+
+    position :relative;
+    background-color: var(--color-bg-hover);
+    
+    /* 헤더의 크기 */
+    height: 3vw;
+
+    /* 텍스트 크기 */
+    font-size: 1.2em;
+}

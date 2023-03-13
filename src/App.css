@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
-}
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root {
+    font-size: 14px;
+    --color-text: #222222AA;
+    --color-zero: #00000000;
+    --color-bg: hsl(205,46%,92%);;
+    --color-bg-hover: #ffffff44;
+    --color-link: #000;
+    --color-link-hover: #131313;
+    --padding-sides: 2rem;
+    --padding-row: 1rem;
+    --color-row-border: #ffffff44;
+    --color-bg-row-hover: #ffffff44;
+    --color-text-alt: #000;
+    --image-gap: 1vw;
+    --image-gap-large: 2vw;
+    --img-size: 5vw;
+    --img-size-large: 14vw;
+    --text-size-small: 1vw;
+    --text-size-middle: 3vw;
+    --text-size: 15vw;
+    --text-size-large: 30vw;
+    --detail-size: 45vw;
+    --detail-size-large: 90vw;
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.Header-header {
+    
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
