@@ -26,15 +26,14 @@ const HeaderItem = (props:{dataValue:HeaderInfo}) => {
     }
 
     return (
-        <div className="headerItem" key={props.dataValue.name}>
-            <div 
+        <div className="headerItem"
                 ref={openUrl} 
                 onClick={onClickOepnUrl} 
                 onMouseOver={onMouseOverDiv}
                 onMouseOut={onMouseOutDiv}
                 data-url={props.dataValue.url}>
                 {props.dataValue.name}
-            </div>
+            
         </div>
     );
 }

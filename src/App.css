@@ -4,13 +4,13 @@
     font-size: 14px;
     --color-text: #222222AA;
     --color-zero: #00000000;
-    --color-bg: hsl(205,46%,92%);;
+    --color-bg: #ffffff;
     --color-bg-hover: #ffffff44;
     --color-link: #000;
     --color-link-hover: #131313;
     --padding-sides: 2rem;
     --padding-row: 1rem;
-    --color-row-border: #ffffff44;
+    --color-row-border: #00000022;
     --color-bg-row-hover: #ffffff44;
     --color-text-alt: #000;
     --image-gap: 1vw;
